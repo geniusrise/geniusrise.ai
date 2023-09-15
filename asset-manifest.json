@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.88234cb2.chunk.css",
+    "main.js": "/website/static/js/main.98551960.chunk.js",
+    "main.js.map": "/website/static/js/main.98551960.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.a9042e4a.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.a9042e4a.js.map",
+    "static/css/2.da846a24.chunk.css": "/website/static/css/2.da846a24.chunk.css",
+    "static/js/2.853e964b.chunk.js": "/website/static/js/2.853e964b.chunk.js",
+    "static/js/2.853e964b.chunk.js.map": "/website/static/js/2.853e964b.chunk.js.map",
+    "static/js/3.b55db2ac.chunk.js": "/website/static/js/3.b55db2ac.chunk.js",
+    "static/js/3.b55db2ac.chunk.js.map": "/website/static/js/3.b55db2ac.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/2.da846a24.chunk.css.map": "/website/static/css/2.da846a24.chunk.css.map",
+    "static/css/main.88234cb2.chunk.css.map": "/website/static/css/main.88234cb2.chunk.css.map",
+    "static/js/2.853e964b.chunk.js.LICENSE.txt": "/website/static/js/2.853e964b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/website/static/media/fira-sans-vietnamese-400-normal.fe7c1b42.woff2",
+    "static/media/iss2.e5c92dea.png": "/website/static/media/iss2.e5c92dea.png",
+    "static/media/logo.f93d8166.png": "/website/static/media/logo.f93d8166.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9042e4a.js",
+    "static/css/2.da846a24.chunk.css",
+    "static/js/2.853e964b.chunk.js",
+    "static/css/main.88234cb2.chunk.css",
+    "static/js/main.98551960.chunk.js"
+  ]
+}
