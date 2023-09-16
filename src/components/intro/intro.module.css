@@ -149,6 +149,15 @@
 }
 
 @media (max-width: 481px) {
+  .bannerimgContainer {
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .bannerimg {
+    max-width: 100vw;
+  }
+
   .intro {
     border: none;
 

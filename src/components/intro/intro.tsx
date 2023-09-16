@@ -25,25 +25,25 @@ function Intro(props: IntroProps) {
       </div>
       <div className={styles.bottom}>
         <Grid className={styles.grid} columns={40}>
-          <Cell width={1}></Cell>
-          <Cell className={styles.cell} width={15}>
+          <Cell width={s ? 0 : 1}></Cell>
+          <Cell className={styles.cell} width={s ? 40 : 15}>
             <div className={styles.introFooter}>
               <pre>R I S E !</pre>
             </div>
             <Grid columns={20} className={styles.footerContainer}>
-              <Cell width={2}></Cell>
-              <Cell width={3}>
+              <Cell width={s ? 0 : 2}></Cell>
+              <Cell width={s ? 2 : 3}>
                 <p className={styles.arrowLeft}></p>
               </Cell>
-              <Cell width={10}>
+              <Cell width={s ? 14 : 10}>
                 <Link className={styles.glowOnHover} to="https://docs.geniusrise.ai">genius</Link>
               </Cell>
-              <Cell width={3}>
+              <Cell width={s ? 2 : 3}>
                 <p className={styles.arrowRight}></p>
               </Cell>
             </Grid>
           </Cell>
-          <Cell width={22}></Cell>
+          <Cell width={s ? 0 : 22}></Cell>
         </Grid>
       </div>
     </div>

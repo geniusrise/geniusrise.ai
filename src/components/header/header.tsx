@@ -26,7 +26,7 @@ function Header(props: HeaderProps) {
             </div>
           </Cell>
         )}
-        <Cell width={s ? 5 : m ? 5 : 5} center middle className={styles.cell}>
+        <Cell width={s ? 5 : m ? 6 : 6} center middle className={styles.cell}>
           <div className={styles.genius}>
             <p className={styles.neonText}>geniusrise</p>
           </div>
@@ -37,23 +37,23 @@ function Header(props: HeaderProps) {
             </p>
           </div>
         </Cell>
-        <Cell width={s ? 5 : m ? 3 : 3} className={styles.cell}>
+        <Cell width={s ? 5 : m ? 2 : 2} className={styles.cell}>
           <Section className={styles.menu}>
             <Menu>
               <Menu.List title="">
                 <Menu.List.Item>
                   <a className={styles.notionLink} href="https://docs.geniusrise.ai/" target="_blank">
-                    📖 Docs
+                    {(s ? "" : "📖 ") + "Docs"}
                   </a>
                 </Menu.List.Item>
                 <Menu.List.Item>
                   <a className={styles.notionLink} href="https://github.com/geniusrise" target="_blank">
-                    💻 Github
+                    {(s ? "" : "💻 ") + "Github"}
                   </a>
                 </Menu.List.Item>
                 <Menu.List.Item>
                   <a className={styles.notionLink} href="https://geniusrise.dev" target="_blank">
-                    👯 Community
+                    {(s ? "" : "👯 ") + "Community"}
                   </a>
                 </Menu.List.Item>
               </Menu.List>
