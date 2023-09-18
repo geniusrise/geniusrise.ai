@@ -136,11 +136,11 @@
   }
 
   .notionLink {
-    padding: 1px !important;
+    padding: 0 !important;
     margin: 0 !important;
     text-align: left;
     color: white !important;
-    font-size: 13pt;
+    font-size: 12pt;
     text-decoration: none;
     width: 100%;
     font-weight: bolder;

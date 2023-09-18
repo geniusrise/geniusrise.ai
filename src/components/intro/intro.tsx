@@ -25,8 +25,8 @@ function Intro(props: IntroProps) {
       </div>
       <div className={styles.bottom}>
         <Grid className={styles.grid} columns={40}>
-          <Cell width={s ? 0 : 1}></Cell>
-          <Cell className={styles.cell} width={s ? 40 : 15}>
+          <Cell width={s || m ? 0 : 1}></Cell>
+          <Cell className={styles.cell} width={s || m ? 40 : 15}>
             <div className={styles.introFooter}>
               <pre>R I S E !</pre>
             </div>
@@ -43,7 +43,7 @@ function Intro(props: IntroProps) {
               </Cell>
             </Grid>
           </Cell>
-          <Cell width={s ? 0 : 22}></Cell>
+          <Cell width={s || m ? 0 : 22}></Cell>
         </Grid>
       </div>
     </div>
